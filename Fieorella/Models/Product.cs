@@ -8,6 +8,10 @@ namespace Fieorella.Models
 
         public decimal Price { get; set; }
         public string ImageURL { get; set; }
+        public string Description { get; set; }
+        public string SKU { get; set; }
+     
+        public List<ProductCategory>productCategories { get; set; }
 
     }
 }

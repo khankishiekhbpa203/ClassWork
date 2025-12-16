@@ -25,5 +25,21 @@ namespace Fieorella.Controllers
             };
             return View(homeVM);
         }
+        public IActionResult Detail(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            Product product = _context.Products.FirstOrDefault(p => p.Id == id);
+
+            List<Product> relatedProduct = _context.Products.ToList();
+
+            if (product == null) return NotFound();
+            DetailVM detailVM = new DetailVM
+            {
+                Products = product,
+
+            };
+            return View();
+        }
     }
 }
