@@ -22,6 +22,21 @@ namespace Fieorella.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CategoryProduct", b =>
+                {
+                    b.Property<int>("CategoriesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CategoriesId", "ProductsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("CategoryProduct");
+                });
+
             modelBuilder.Entity("Fieorella.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -83,79 +98,19 @@ namespace Fieorella.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Fieorella.Models.ProductCategory", b =>
+            modelBuilder.Entity("CategoryProduct", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("productCategories");
-                });
-
-            modelBuilder.Entity("Fieorella.Models.Slider", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ImageURL")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("isDeleted")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Sliders");
-                });
-
-            modelBuilder.Entity("Fieorella.Models.ProductCategory", b =>
-                {
-                    b.HasOne("Fieorella.Models.Category", "Category")
-                        .WithMany("productCategories")
-                        .HasForeignKey("CategoryId")
+                    b.HasOne("Fieorella.Models.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Fieorella.Models.Product", "Product")
-                        .WithMany("productCategories")
-                        .HasForeignKey("ProductId")
+                    b.HasOne("Fieorella.Models.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Fieorella.Models.Category", b =>
-                {
-                    b.Navigation("productCategories");
-                });
-
-            modelBuilder.Entity("Fieorella.Models.Product", b =>
-                {
-                    b.Navigation("productCategories");
                 });
 #pragma warning restore 612, 618
         }

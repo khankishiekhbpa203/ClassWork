@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:viewmodels\\detailvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|c:\\users\\novbe2\\desktop\\classwork\\fieorella\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DD108BC-0567-476D-B3BB-9A1BB23E5801}|Fieorella.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetailVM.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\ViewModels\\DetailVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\DetailVM.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\ViewModels\\DetailVM.cs",
-              "RelativeToolTip": "ViewModels\\DetailVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T15:35:27.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\DAL\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\DAL\\AppDbContext.cs",
-              "RelativeToolTip": "DAL\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T15:10:35.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:35:28.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductCategory.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\ProductCategory.cs",
-              "RelativeDocumentMoniker": "Models\\ProductCategory.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\ProductCategory.cs",
-              "RelativeToolTip": "Models\\ProductCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T15:04:19.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:44:29.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Views\\Home\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Views\\Home\\Detail.cshtml",
-              "RelativeToolTip": "Views\\Home\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-16T14:29:06.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCEAAABGAAAAAAAAAA==",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T14:27:25.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\novbe2\\Desktop\\ClassWork\\Fieorella\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T13:49:15.413Z",
+              "WhenOpened": "2025-12-19T14:40:16.411Z",
               "EditorCaption": ""
             }
           ]

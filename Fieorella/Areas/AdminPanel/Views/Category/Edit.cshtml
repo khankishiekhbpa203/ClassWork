@@ -1,0 +1,22 @@
+﻿@using Fieorella.Models
+@model Category
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Edit Category</h4>
+
+                <form class="forms-sample" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    <button asp-action="index" class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

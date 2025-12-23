@@ -29,17 +29,21 @@ namespace Fieorella.Controllers
         {
             if (id == null || id < 1) return BadRequest();
 
-            Product product = _context.Products.FirstOrDefault(p => p.Id == id);
+            Product? product = _context.Products.Include(c => c.Categories).FirstOrDefault(p => p.Id == id);
 
-            List<Product> relatedProduct = _context.Products.ToList();
 
             if (product == null) return NotFound();
+
+            //var relatedproducts = _context.Products
+            //    .Where( && p.Id!=id)
+            //    .Take(3)
+            //    .ToList();
             DetailVM detailVM = new DetailVM
             {
-                Products = product,
-
+                Product = product,
+                //RelatedProducts = relatedproducts,
             };
-            return View();
+            return View(detailVM);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Fieorella.Models
         public string Description { get; set; }
         public string SKU { get; set; }
      
-        public List<ProductCategory>productCategories { get; set; }
+        public List<Category> Categories { get; set; }
 
     }
 }

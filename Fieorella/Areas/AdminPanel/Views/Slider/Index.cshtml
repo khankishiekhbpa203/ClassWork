@@ -1,0 +1,51 @@
+﻿@using Fieorella.Models
+@model List<Slider>
+
+@{
+    int count = 0;
+}
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Slider Table</h4>
+                <div class="table-responsive">
+                    <a asp-action="create" class="btn btn-success">Create</a>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>
+                                    №
+                                </th>
+                                <th style="text-align:center">
+                                    Image
+                                </th>
+                                <th style="text-align:center">
+                                    Setting
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (Slider slider in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td>
+                                        <p>@count</p>
+                                    </td>
+                                    <td style="text-align:center">
+                                        <img style="width:70px;height:70px" src="~/img/@slider.ImageURL" />
+                                    </td>
+                                    <td style="text-align:center">
+                                        <a class="btn btn-warning"  asp-action="Edit" asp-route-id="@slider.Id"><i class="mdi mdi-pencil-box">edit</i></a>
+                                        <a class="btn btn-danger" asp-action="delete" asp-route-id="@slider.Id"><i class="mdi mdi-delete-forever">delete</i></a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
